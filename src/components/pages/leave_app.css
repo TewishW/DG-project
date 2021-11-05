@@ -1,0 +1,14 @@
+
+.btn-hollow, .btn-hollow:hover, .btn-hollow:active, .btn-hollow:visited {
+    background-color: #ffffff;
+    border-color: #01979c;
+  }
+  
+  .btn-hollow:hover,
+  .btn-hollow:active,
+  .btn-hollow:visited,
+  .btn-hollow:focus {
+    background-color: #01979c !important;
+    border-color: #008489 !important;
+  }
+  

@@ -1,0 +1,39 @@
+a{
+    color: #008489;
+}
+
+form-switch{
+    color: #008489 !important; 
+}
+.custom-control-input:focus ~ 
+.custom-control-label::before {
+                /* when the button is toggled off 
+  it is still in focus and a violet border will appear */
+    border-color: violet !important;
+                /* box shadow is blue by default
+  but we do not want any shadow hence we have set 
+  all the values as 0 */
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+    }
+  
+            /*sets the background color of
+          switch to violet when it is checked*/
+.custom-control-input:checked ~ 
+.custom-control-label::before {
+    border-color: violet !important;
+    background-color: violet !important;
+}
+  
+/*sets the background color of
+switch to violet when it is active*/
+.custom-control-input:active ~ 
+.custom-control-label::before {
+    background-color: violet !important;
+    border-color: violet !important;
+}
+
+
+.fs-8{
+    font-size: smaller;
+}
+
