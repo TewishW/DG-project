@@ -13,7 +13,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                        <a className="nav-link" aria-current="page" href='/employee_info'>Employee Information</a>
+                        <a className="nav-link selected-page" aria-current="page" href='/employee_info'>Employee Information</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link" href="/time_attendance">Time Attendance</a>
@@ -22,7 +22,16 @@ function Navbar() {
                         <a className="nav-link" href="leave_app">Leave Application</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#">Leave Summary</a>
+                        <a className="nav-link" href="leave_sum">Leave Summary</a>
+                        </li>
+                        <li className="nav-item">
+                        <a className="nav-link" href="/pass_forgot">Pass_Forgot</a>
+                        </li>
+                        <li className="nav-item">
+                        <a className="nav-link" href="/pass_change">Pass_Change</a>
+                        </li>
+                        <li className="nav-item">
+                        <a className="nav-link" href="approve_hr">approveHR</a>
                         </li>
                     </ul>
                     </div>

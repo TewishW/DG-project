@@ -1,6 +1,30 @@
 import React from 'react';
 import './leave_sum.css';
 
+class PullDataForTest extends React.Component{
+    constructor() {
+        super();
+        this.state = {
+            people : []
+        };
+    }
+
+    componentDidMount(){
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response => response.json())
+        .then(users => this.setState({people : users}));
+    }
+    render() {
+        return(
+            <div>
+                {this.state.people.map(people => ((
+                    <h1 key={people.id}> {people.name}</h1>
+                )))}
+            </div>
+        );
+    }   
+}
+
 
 
 
@@ -22,17 +46,18 @@ function leave_sum(){
                 <table className="table table-sm table-light table-bordered table-size-fixed">
                     <thead className="thead-light">
                         <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">UName</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">Website</th>
+                            <th scope="col">Company</th>
                             <th scope="col">Edit</th>
-                            <th scope="col">#</th>
-                            <th scope="col">Full Name</th>
-                            <th scope="col">Date</th>
-                            <th scope="col">Time in</th>
-                            <th scope="col">Time out</th>
-                            <th scope="col">Early out</th>
-                            <th scope="col">Working Hours</th>
                         </tr>
                     </thead>
                     <tbody>
+                        <PullDataForTest/>
                         <tr>
                             <th scope="row">1</th>
                             <td>Mark</td>

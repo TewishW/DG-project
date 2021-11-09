@@ -4,19 +4,24 @@ import './time_attendance.css';
 function time_attendance() {
     return(
         <div className='container'>
+            <div className='row justify-content-center p-0'>
+                <div className="col-10 bg-white d-flex justify-content-between">
+                    <h3>Time Attendance</h3>
+                </div>
+            </div>
             <div className='row justify-content-center pt-1'>
-                <div className="row justify-content-center">
+                <div className="row justify-content-center mx-2">
                     <div className="col-md-3 d-grid mb-1 p-1">
                         <label for="startDate" className="form-label">Start Date</label>
-                        <input className="form-control-sm " id="startDate" rows="3" type="date"/>
+                        <input className="form-control-sm rounded-0" id="startDate" rows="3" type="date"/>
                     </div>
                     <div className="col-md-3 d-grid mb-1 p-1">
                         <label for="endDate" className="form-label">End Date</label>
-                        <input className="form-control-sm" id="endDate" rows="3" type="date"/>
+                        <input className="form-control-sm rounded-0" id="endDate" rows="3" type="date"/>
                     </div>
-                    <div className="col-md-3 d-grid mb-1 p-1">
-                        <input className="btn btn-primary" type="submit" value="Submit"/>
-                    </div>
+                </div>
+                <div className="col-8 col-md-3 d-grid mb-2">
+                    <input className="btn btn-primary rounded-0" type="submit" value="Submit"/>
                 </div>
                 <div className="table-responsive">
                     {/*---Data table---*/}

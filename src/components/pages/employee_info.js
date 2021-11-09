@@ -9,9 +9,9 @@ function employee_info(){
                     <h3>Employee Information</h3>
                 </div>
             </div>
-            <div className='row justify-content-center pt-5'>
+            <div className='row justify-content-center pt-5 mb-5'>
                     <div className="col-10 col-lg-4 bg-white text-center">
-                        <img src="https://www.diethelmtravel.com/wp-content/uploads/2016/04/bill-gates-wealthiest-person.jpg" alt="avatar" className="img_size mt-5"/>
+                        <img src="https://www.diethelmtravel.com/wp-content/uploads/2016/04/bill-gates-wealthiest-person.jpg" alt="avatar" className="img_size m-4"/>
                         <div className="d-grid pt-1 px-3 m-1">
                             <button class="btn btn-primary rounded-0" type="button">Check Attendance Time</button>
                         </div>
@@ -24,33 +24,33 @@ function employee_info(){
                     </div>
                     <div className="col-10 col-lg-4 bg-white">
                         <div class="mb-1 row pt-lg-3">
-                            <label for="info1" class="col-sm-3 col-form-label fs-6 py-md-0">No.</label>
+                            <label for="info1" class="col-sm-3 col-form-label fs-8 py-md-0">No.</label>
                             <div class="col-sm-8 p-2 p-md-1">
-                                <input type="text" readonly class="form-control form-control-sm" id="info1" value="0000001"/>
+                                <input type="text" readonly class="form-control form-control-sm fs-8" id="info1" value="0000001"/>
                             </div>
-                            <label for="info2" class="col-sm-3 col-form-label fs-6 py-md-0">Full Name (TH)</label>
+                            <label for="info2" class="col-sm-3 col-form-label fs-8 py-md-0">Full Name (TH)</label>
                             <div class="col-sm-8 p-2 p-md-1">
-                                <input type="text" readonly class="form-control form-control-sm" id="info2" value="Jane Doe"/>
+                                <input type="text" readonly class="form-control form-control-sm fs-8" id="info2" value="Jane Doe"/>
                             </div>
-                            <label for="info3" class="col-sm-3 col-form-label">Nickname (TH)</label>
+                            <label for="info3" class="col-sm-3 col-form-label fs-8">Nickname (TH)</label>
                             <div class="col-sm-8 p-2 p-md-1">
-                                <input type="text" readonly class="form-control fs-6 form-control-sm" id="info3" value="Jane"/>
+                                <input type="text" readonly class="form-control form-control-sm fs-8" id="info3" value="Jane"/>
                             </div>
-                            <label for="info4" class="col-sm-3 col-form-label">Full Name (EN)</label>
+                            <label for="info4" class="col-sm-3 col-form-label fs-8">Full Name (EN)</label>
                             <div class="col-sm-8 mt-1 p-2 p-md-1">
-                                <input type="text" readonly class="form-control fs-6 form-control-sm" id="info4" value="Men"/>
+                                <input type="text" readonly class="form-control fs-8 form-control-sm" id="info4" value="Men"/>
                             </div>
-                            <label for="info1" class="col-sm-3 col-form-label fs-6 py-md-0">Gender</label>
+                            <label for="info1" class="col-sm-3 col-form-label fs-8 py-md-0">Gender</label>
                             <div class="col-sm-8 p-2 p-md-1">
-                                <input type="text" readonly class="form-control form-control-sm" id="info1" value="0000001"/>
+                                <input type="text" readonly class="form-control form-control-sm fs-8" id="info1" value="0000001"/>
                             </div>
-                            <label for="info2" class="col-sm-3 col-form-label fs-6 py-md-0">Address</label>
+                            <label for="info2" class="col-sm-3 col-form-label fs-8 py-md-0">Address</label>
                             <div class="col-sm-8 p-2 p-md-1">
-                                <input type="text" readonly class="form-control form-control-sm" id="info2" value="Jane Doe"/>
+                                <input type="text" readonly class="form-control form-control-sm fs-8" id="info2" value="Jane Doe"/>
                             </div>
-                            <label for="info3" class="col-sm-3 col-form-label">Private Phone Number</label>
+                            <label for="info3" class="col-sm-3 col-form-label fs-8">Private Phone Number</label>
                             <div class="col-sm-8 p-2 p-md-1">
-                                <input type="text" readonly class="form-control fs-6 form-control-sm" id="info3" value="Jane"/>
+                                <input type="text" readonly class="form-control fs-8 form-control-sm" id="info3" value="Jane"/>
                             </div>
                             <label for="info4" class="col-sm-3 col-form-label">Company Email</label>
                             <div class="col-sm-8 mt-1 p-2 p-md-1">
